@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route index element={<Scrub />}/>
+        <Route index element={<Catogory />}/>
       </Routes>
     </div>
   );
