@@ -9,3 +9,10 @@ body {
   color: var(--tg-theme-text-color);
 
 }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
