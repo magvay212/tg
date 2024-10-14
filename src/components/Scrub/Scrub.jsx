@@ -74,7 +74,7 @@ const ProductList = () => {
             {products.map(item => (
                 <ProductItem
                     product={item}
-                    price={price}
+                    onAdd={onAdd}
                     className={'item'}
                 />
             
