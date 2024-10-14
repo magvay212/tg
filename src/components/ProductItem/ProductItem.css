@@ -1,18 +1,18 @@
 .product {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap; /* Позволяет элементам "перепрыгивать" на следующую строку */
     border: 1px solid var(--tg-theme-button-color);
     padding: 15px;
-    width: 300px;
+    width: 100%; /* Позволяет элементу занимать всю ширину */
 }
 
 .img {
-    width: 100%;
-    background: lightgray;
-    height: 270px;
+    width: 100%; /* Изображение тоже занимает всю ширину */
+    background: lightgray; /* Фон для случая, если изображение не загружается */
+    height: 100px;
     margin: 0 auto;
     background: var(--tg-theme-button-color);
-
 }
 
 .description {
@@ -20,5 +20,5 @@
 }
 
 .price {
-    width: 100%;
+    width: 100%; /* Цена занимает всю ширину */
 }
