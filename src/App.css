@@ -15,4 +15,8 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  padding: 10px;
+ 
 }
