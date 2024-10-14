@@ -22,3 +22,10 @@
 .price {
     width: 100%; /* Цена занимает всю ширину */
 }
+
+.list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
