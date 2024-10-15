@@ -30,15 +30,14 @@ const CategoryList = () => {
 
     //);
     return (
-        <div className="grid-container">
-          {catlist.map((item, index) => (
-            <div className="grid-item" key={index}>
-              {item}
-            </div>
-          ))}
+        <div className="category-list">
+            {catlist.map(category => (
+                <CategoryItem key={category.id} category={category} />
+            ))}
         </div>
-      );
+    );
 };
+
 
 
 
