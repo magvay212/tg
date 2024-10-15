@@ -3,7 +3,7 @@ import {Route, Routes} from 'react-router-dom'
 import { useEffect } from 'react';
 import { useTelegram } from './hooks/useTelegram'
 import Header from './components/Header/Header';
-import Scrub from './components/Scrub/Scrub';
+import Category from './components/Category/Category'
 
 function App() {
   const {tg} = useTelegram();
@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route index element={<Catogory />}/>
+        <Route index element={<Category />}/>
       </Routes>
     </div>
   );

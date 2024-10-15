@@ -1,5 +1,4 @@
 import React from "react";
-import {useTelegram} from "../../hooks/useTelegram"
 
 const Categorylist = [
     {id: '1', title: 'Скрабы'},
@@ -14,7 +13,6 @@ const Categorylist = [
 
 
 const Category = () => {
-
 
     return (
         <div className={'list'}>
