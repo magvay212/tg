@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { useTelegram } from './hooks/useTelegram'
 import Header from './components/Header/Header';
 import Category from './components/Category/Category'
+import Scrub from './components/Scrub/Scrub'
 
 function App() {
   const {tg} = useTelegram();
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Routes>
         <Route index element={<Category />}/>
+        <Route path="/scrub" element={<Scrub/>} />
       </Routes>
     </div>
   );
