@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from 'prop-types';
- 
+import "./Category.css"
 const CategoryItem = ({category, className}) => {
 
     return (
         <div className='category-item'>
-            <img src={category.image} alt={category.title} className='category-image' />
+            <img src={category.image} className='category-image' />
+            <h3 className='category-title'>{category.title}</h3>
         </div>
         //<div className={'category ' + className}>
         //    <div className={'img'}>{category.Image}</div>
