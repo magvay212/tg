@@ -17,19 +17,31 @@ const catlist = [
 
 const CategoryList = () => {
 
-    return (
-        <div className={'list'}>
-            {catlist.map(item => (
-                <CategoryItem
-                    category={item}
-                    className={'item'}
-                />
+    //return (
+    //    <div className={'list'}>
+    //        {catlist.map(item => (
+    //            <CategoryItem
+    //                category={item}
+    //                className={'item'}
+    //            />
             
-            ))}
+    //        ))}
+    //    </div>
+
+    //);
+    return (
+        <div className="grid-container">
+          {catlist.map((item, index) => (
+            <div className="grid-item" key={index}>
+              {item}
+            </div>
+          ))}
         </div>
-
-    );
-
+      );
 };
+
+
+
+
 
 export default CategoryList;
