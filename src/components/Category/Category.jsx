@@ -1,7 +1,7 @@
 import React from "react";
 import "./Category.css"
 import CategoryItem from "../CategoryItem/CategoryItem";
-
+import hairImg from './image/hair.jpg';
 
 const catlist = [
     {id: '1', title: 'Скрабы', image: '/src/components/Category/image/scrub.jpg'},
@@ -9,7 +9,7 @@ const catlist = [
     {id: '3', title: 'Ароматерапия', image: '/src/components/Category/image/aromatherapy.jpg'},
     {id: '4', title: 'Свечи', image: '/src/components/Category/image/candles.jpg'},
     {id: '5', title: 'Мыло', image: '/src/components/Category/image/soap.jpg'},
-    {id: '6', title: 'Для волос', image: '/src/components/Category/image/hair.jpg'},
+    {id: '6', title: 'Для волос', image: hairImg},
     {id: '7', title: 'Для дома', image: '/src/components/Category/image/home.jpg'},
     {id: '8', title: 'Сезонное предложение', image: '/src/components/Category/image/seasonal.jpg'},
 ];
