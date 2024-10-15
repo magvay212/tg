@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import {useTelegram} from "../../hooks/useTelegram"
 
 const Categorylist = [
@@ -14,8 +14,7 @@ const Categorylist = [
 
 
 const Category = () => {
-    const [addedItems, setAddedItems] = useState([])
-    const {tg} = useTelegram();
+
 
     return (
         <div className={'list'}>
