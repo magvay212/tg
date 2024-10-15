@@ -13,7 +13,7 @@
 .category-list {
     display: flex;
     flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
-    justify-content: space-between; /* Уравновешиваем отступы между элементами */
+    justify-content: space-evenly; /* Уравновешиваем отступы между элементами */
 }
 
 .category-item {
