@@ -11,4 +11,4 @@ const CategoryItem = ({category, className}) => {
 
 };
 
-export default ProductItem;
+export default CategoryItem;

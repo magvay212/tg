@@ -28,4 +28,4 @@ const Category = () => {
 
 };
 
-export default ProductList;
+export default Category;
