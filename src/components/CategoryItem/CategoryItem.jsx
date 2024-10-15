@@ -5,7 +5,7 @@ const CategoryItem = ({category, className}) => {
 
     return (
         <div className='category-item'>
-            <img src={category.image} alt={category.title} className='category-image' />
+            <img src={category.Image} alt={category.title} className='category-image' />
         </div>
         //<div className={'category ' + className}>
         //    <div className={'img'}>{category.Image}</div>
