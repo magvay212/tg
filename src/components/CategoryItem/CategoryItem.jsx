@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import "./Category.css"
+import "./CategoryItem.css"
 const CategoryItem = ({category, className}) => {
 
     return (
