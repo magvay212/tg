@@ -6,10 +6,11 @@ import scrubImg from './image/scrub.jpg';
 import skincareImg from './image/skincare.jpeg';
 import aromatherapyImg from './image/aromatherapy.jpg';
 import candlesImg from './image/candles.jpg';
-import soapImg from './image/soapImg'
+import soapImg from './image/soap.jpg'
 import hairImg from './image/hair.jpg';
 import homeImg from './image/home.jpeg';
 import seasonalImg from './image/seasonal.jpg';
+
 const catlist = [
     {id: '1', title: 'Скрабы', image: scrubImg},
     {id: '2', title: 'Уходовая косметика', image: skincareImg},
