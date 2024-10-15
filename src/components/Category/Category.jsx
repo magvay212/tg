@@ -1,6 +1,7 @@
 import React from "react";
 import "./Category.css"
 import CategoryItem from "../CategoryItem/CategoryItem";
+import "./img"
 
 const catlist = [
     {id: '1', title: 'Скрабы', Image: './img/cat_scrub.jpg'},
