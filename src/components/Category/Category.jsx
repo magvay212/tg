@@ -1,4 +1,6 @@
 import React from "react";
+import "./Category.css"
+import CategoryItem from "../CategoryItem/CategoryItem";
 
 const Categorylist = [
     {id: '1', title: 'Скрабы'},
@@ -17,7 +19,7 @@ const Category = () => {
     return (
         <div className={'list'}>
             {Categorylist.map(item => (
-                <Category Categorylist={item}
+                <CategoryItem Categorylist={item}
                     className={'item'}
                 />
             
