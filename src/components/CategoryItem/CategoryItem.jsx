@@ -7,7 +7,7 @@ const CategoryItem = ({category, className}) => {
 
     return (
         <div className='category-item'>
-            <Link to="/scrub">{"/scrub"}
+            <Link to="/scrub">{}
                 <img src={category.image} alt={category.title} className='category-image' />
                 <h3 className='category-title'>{category.title}</h3>
             </Link>
