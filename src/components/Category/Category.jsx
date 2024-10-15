@@ -2,7 +2,7 @@ import React from "react";
 import "./Category.css"
 import CategoryItem from "../CategoryItem/CategoryItem";
 import scrubImg from './image/scrub.jpg';
-import skincareImg from './image/skincare.jpg';
+import skincareImg from './image/skincare.jpeg';
 import aromatherapyImg from './image/aromatherapy.jpg';
 import candlesImg from './image/candles.jpg';
 import hairImg from './image/hair.jpg';
