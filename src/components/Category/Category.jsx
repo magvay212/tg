@@ -2,7 +2,7 @@ import React from "react";
 import "./Category.css"
 import CategoryItem from "../CategoryItem/CategoryItem";
 
-const Categorylist = [
+const Category = [
     {id: '1', title: 'Скрабы'},
     {id: '2', title: 'Уходовая косметика'},
     {id: '3', title: 'Ароматерапия'},
@@ -14,12 +14,13 @@ const Categorylist = [
 ]
 
 
-const Category = () => {
+const CategoryList = () => {
 
     return (
         <div className={'list'}>
-            {Categorylist.map(item => (
-                <CategoryItem Categorylist={item}
+            {Category.map(item => (
+                <CategoryItem
+                    Category={item}
                     className={'item'}
                 />
             
@@ -30,4 +31,4 @@ const Category = () => {
 
 };
 
-export default Category;
+export default CategoryList;
