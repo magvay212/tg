@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
+import "./Header.css"
 import { useTelegram } from "../../hooks/useTelegram";
 
 const Header = () => {
@@ -7,10 +8,11 @@ const Header = () => {
 
     return (
         <div className={'header'}>
-            <Button onClick={onClose}>Close</Button>
+        //    <Button onClick={onClose}>Close</Button>
             <span className={'username'}>
-                'Добро пожаловать' {user?.username}
+                {user?.username}
             </span>
+            <span> Магазин Косметики Bomballs</span>
         </div>
     );
 
